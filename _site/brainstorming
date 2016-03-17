@@ -1,0 +1,40 @@
+Allegro - Ponto de encontro entre Pessoas e Pessoas e Pessoas e Eventos
+
+Atores: Pessoa e Empresa
+
+Passo 1: Usuário se cadastra
+- Pergunta: Você é Pessoa ou Empresa?
+
+Alternativa 1: Pessoa
+
+Features:
+- Localizar eventos com desconto
+  - Eventos em Dupla
+  - Eventos em Grupo
+- Demonstrar interesse em evento
+  Ex: Quero ir em  'St. Patrick's Day' em Shamrock Irish Pub
+- Cadastrar Eventos de interesse pessoal.
+  Ex: Correr na praça
+
+Alternativa 2: Evento
+
+Features:
+- Cadastrar Empresa
+- Empresa cadastra Evento
+  - Evento para dupla ou grupo?
+  - Quantidade de desconto?
+  - Quantidade de vagas para o evento?
+  - Eventos grátis
+
+Ex:
+Evento: St. Patricks Day
+Empresa: Shamrock Irish Pub
+Dia: 17/03/2015
+Tipo: Dupla
+Qtd de Desconto: 10%
+Qtd de vagas: 10 vagas (1 dupla = 1 vaga)
+
+- Match
+Sistema faz match por outras pessoas que estejam interessadas no mesmo
+Evento, Pessoa seleciona se "Vai ou Passa", caso ambas selecionem "Vai", o Sistema retorna a Combinação e abre um chat entre as duas, a vaga é reservada e elas têm até 24 horas antes do evento para confirmar o interesse.
+
